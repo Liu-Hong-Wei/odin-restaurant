@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: lightblue;
+  height: 5vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header-title {
+  padding: 5px;
+  flex: 0 0 150px;
+  font-size: 25px;
+  font-weight: 800;
+  user-select: none;
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  background-color: beige;
+  border-radius: 0.5vh;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#content {
+    height: 95vh;
+    display: flex;
+    background-image: url(asset/resource/welcome-image.jpg);
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section {
+    font: 5vh "Times New Roman", Times, serif;
+}
