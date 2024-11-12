@@ -4,10 +4,15 @@
   padding: 0;
 }
 
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
 header {
   background: lightblue;
-  height: 5vh;
-  width: 100vw;
+  height: 5%;
+  width: 100%;
 
   display: flex;
   flex-direction: row;
@@ -43,13 +48,20 @@ button {
 }
 
 #content {
-    height: 95vh;
-    display: flex;
-    background-image: url(asset/resource/welcome-image.jpg);
-    justify-content: center;
-    align-items: center;
+  height: 95%;
+  display: flex;
+  background-image: url(asset/resource/welcome-image.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 .welcome-section {
-    font: 5vh "Times New Roman", Times, serif;
+  user-select: none;
+  font: 1000 80px "Times New Roman", Times, serif;
+  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: transparent;
+  background-clip: text;
+
+  /* text-shadow: 2px 2px white; */
 }
